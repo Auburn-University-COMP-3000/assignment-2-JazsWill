@@ -101,5 +101,7 @@ int main()
              dayOfWeek = "Saturday";
 
          cout << "\nThe date: " << month << "/" << day << "/" << year << " is on a " << dayOfWeek << ".\n\n";
+    
+         return 0;
 }
 
