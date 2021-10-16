@@ -4,7 +4,7 @@
 using namespace std;
 
 // Assignment 2 - Exercise 2
-   // This program prompts the user to enter an amount of change between 1 and 99 and prints out the coins needed.
+// This program prompts the user to enter an amount of change between 1 and 99 and prints out the coins needed.
 
 void computeCoin(int coinValue, int& number, int& amountLeft)
 {
@@ -42,4 +42,6 @@ int main()
              cout << "\nEnter 'Y' to calculate change again. If not enter 'N' to exit program.: ";
              cin >> answer;
          } while (answer == 'Y');
+   
+         return 0;
 }
